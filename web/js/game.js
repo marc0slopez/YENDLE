@@ -336,7 +336,7 @@ export function validateGuess(state, rawGuess) {
   }
 
   if (state.status !== 'playing') {
-    return { type: 'finished', message: 'La partida ya terminó. Pedí una nueva ruta.' };
+    return { type: 'finished', message: 'La partida ya termino. Comparti el resultado o volve al inicio.' };
   }
 
   const id = canonicalId(rawGuess);

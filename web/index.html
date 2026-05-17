@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="es">
 
 <head>
@@ -42,10 +42,10 @@
 
     main {
       position: relative;
-      width: min(1040px, 100%);
-      min-height: min(680px, calc(100vh - 48px));
+      width: min(1300px, 100%);
+      min-height: min(760px, calc(100vh - 48px));
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 360px;
+      grid-template-columns: minmax(0, 1fr) 420px;
       border: 1px solid var(--line);
       background: var(--panel);
       overflow: hidden;
@@ -153,11 +153,11 @@
       position: relative;
       z-index: 4;
       border-left: 1px solid var(--line);
-      padding: clamp(28px, 4vw, 42px) 28px;
+      padding: clamp(28px, 4vw, 46px) 28px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      gap: clamp(16px, 2vh, 22px);
+      justify-content: space-between;
+      gap: clamp(18px, 2.4vh, 28px);
       background: var(--panel);
     }
 
@@ -374,6 +374,51 @@
       align-self: center;
     }
 
+    .panel-stack {
+      display: grid;
+      gap: 18px;
+      align-content: center;
+      min-height: 100%;
+    }
+
+    .daily-summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .daily-summary div {
+      min-height: 78px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius);
+      background: #202020;
+      padding: 12px 10px;
+      display: grid;
+      align-content: center;
+      gap: 4px;
+    }
+
+    .daily-summary strong {
+      display: block;
+      color: var(--text);
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .daily-summary span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.25;
+    }
+
+    .panel-footnote {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
     .panel-divider {
       height: 1px;
       background: var(--line);
@@ -507,17 +552,26 @@
       </div>
       <footer>Hecho en Argentina</footer>
     </section>
-
     <section class="panel" aria-label="Elegir mapa y modo">
-      <p class="eyebrow">Mapa</p>
-      <div class="map-options" role="group" aria-label="Elegir mapa">
-        <button class="map-option is-active" type="button" data-pack="caba-barrios">CABA Barrios</button>
-        <button class="map-option" type="button" data-pack="gba-partidos">GBA Partidos</button>
+      <div class="panel-stack">
+        <div>
+          <p class="eyebrow">Mapa</p>
+          <div class="map-options" role="group" aria-label="Elegir mapa">
+            <button class="map-option is-active" type="button" data-pack="caba-barrios">CABA Barrios</button>
+            <button class="map-option" type="button" data-pack="gba-partidos">GBA Partidos</button>
+          </div>
+        </div>
+        <button id="daily-route-btn" class="daily-option" type="button">
+          <span><strong>Ruta diaria</strong><span>Misma ruta para todos en tu mapa</span></span>
+          <span class="pro-pill">HOY</span>
+        </button>
+        <div class="daily-summary" aria-label="Resumen de la ruta diaria">
+          <div><strong>3-6</strong><span id="home-unit-label">barrios</span></div>
+          <div><strong>1</strong><span>ruta por d&iacute;a</span></div>
+          <div><strong>mismo</strong><span>desaf&iacute;o</span></div>
+        </div>
       </div>
-      <button id="daily-route-btn" class="daily-option" type="button">
-        <span><strong>Ruta diaria</strong><span>Misma ruta para todos en tu mapa</span></span>
-        <span class="pro-pill">PRO</span>
-      </button>
+      <p class="panel-footnote">Eleg&iacute; mapa y jug&aacute; la ruta diaria de hoy.</p>
     </section>
   </main>
 
@@ -611,7 +665,7 @@
         'data/images/amba/empanada.png',
         'data/images/amba/fernet gba 8 bit.png',
         'data/images/amba/mate.png',
-        'data/images/amba/seÃ±ora tortilla 8 bit.png',
+        'data/images/amba/se\u00f1ora tortilla 8 bit.png',
         'data/images/amba/vino con jugo 8bit.png'
       ]
     };
@@ -728,7 +782,7 @@
       'caba-barrios': {
         short: 'CABA',
         title: 'YENDLE x CABA',
-        daily: 'Ruta diaria Ãºnica para CABA',
+        daily: 'Ruta diaria unica para CABA',
         dailyOnly: true,
         availableDifficulties: ['diaria'],
         defaultDifficulty: 'diaria',
@@ -737,7 +791,7 @@
       'gba-partidos': {
         short: 'GBA',
         title: 'YENDLE x GBA',
-        daily: 'Ruta diaria Ãºnica para GBA',
+        daily: 'Ruta diaria unica para GBA',
         dailyOnly: true,
         availableDifficulties: ['diaria'],
         defaultDifficulty: 'diaria',
@@ -749,6 +803,10 @@
       'amba-partidos': 'gba-partidos',
       'gba-norte-partidos': 'gba-partidos',
       'gba-oeste-partidos': 'gba-partidos',
+      'gba-sur-partidos': 'gba-partidos',
+      'san-isidro-localidades': 'gba-partidos'
+    };
+
     function resolveHomePack(value) {
       const id = homePackAliases[value] || value;
       return homePackMeta[id] ? id : 'caba-barrios';
@@ -760,11 +818,13 @@
       const meta = homePackMeta[selectedPack] || homePackMeta['caba-barrios'];
       const regionLabel = document.getElementById('home-region-label');
       const dailyCopy = document.querySelector('#daily-route-btn span span');
+      const unitLabel = document.getElementById('home-unit-label');
       const dailyOnly = !!meta.dailyOnly;
 
       document.title = meta.title;
       if (regionLabel) regionLabel.textContent = 'x ' + meta.short;
       if (dailyCopy) dailyCopy.textContent = meta.daily;
+      if (unitLabel) unitLabel.textContent = selectedPack === 'gba-partidos' ? 'partidos' : 'barrios';
       renderSpritesForPack(selectedPack);
 
       for (const button of document.querySelectorAll('.map-option')) {
@@ -792,11 +852,7 @@
 
     const dailyButton = document.getElementById('daily-route-btn');
     dailyButton?.addEventListener('click', () => {
-      const meta = homePackMeta[selectedPack] || homePackMeta['caba-barrios'];
-      const allowed = meta.availableDifficulties || ['facil', 'medio', 'dificil'];
-      const storedLevel = localStorage.getItem('yendle_dificultad') || localStorage.getItem('travle_dificultad') || meta.defaultDifficulty || 'diaria';
-      const level = allowed.includes(storedLevel) ? storedLevel : (meta.defaultDifficulty || allowed[0] || 'facil');
-      localStorage.setItem('yendle_dificultad', level);
+      localStorage.setItem('yendle_dificultad', 'diaria');
       localStorage.setItem('yendle_pack', selectedPack);
       const query = 'p=' + encodeURIComponent(selectedPack) + '&daily=1';
       location.href = 'yendle.html?' + query;
