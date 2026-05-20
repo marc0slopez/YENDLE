@@ -3,6 +3,7 @@
     "esteban_echeverria",
     "florencio_varela",
     "lomas_de_zamora",
+    "presidente_peron",
     "quilmes"
   ],
   "avellaneda": [
@@ -11,22 +12,52 @@
   ],
   "berazategui": [
     "florencio_varela",
+    "la_plata",
     "quilmes"
+  ],
+  "berisso": [
+    "ensenada",
+    "la_plata"
+  ],
+  "canuelas": [
+    "ezeiza",
+    "marcos_paz",
+    "san_vicente"
+  ],
+  "ensenada": [
+    "berisso",
+    "la_plata"
+  ],
+  "escobar": [
+    "malvinas_argentinas",
+    "pilar",
+    "tigre"
   ],
   "esteban_echeverria": [
     "almirante_brown",
     "ezeiza",
     "la_matanza",
-    "lomas_de_zamora"
+    "lomas_de_zamora",
+    "presidente_peron"
   ],
   "ezeiza": [
+    "canuelas",
     "esteban_echeverria",
-    "la_matanza"
+    "la_matanza",
+    "presidente_peron"
   ],
   "florencio_varela": [
     "almirante_brown",
     "berazategui",
-    "quilmes"
+    "la_plata",
+    "presidente_peron",
+    "quilmes",
+    "san_vicente"
+  ],
+  "general_rodriguez": [
+    "marcos_paz",
+    "moreno",
+    "pilar"
   ],
   "hurlingham": [
     "ituzaingo",
@@ -43,12 +74,14 @@
   "jose_c_paz": [
     "malvinas_argentinas",
     "moreno",
+    "pilar",
     "san_miguel"
   ],
   "la_matanza": [
     "esteban_echeverria",
     "ezeiza",
     "lomas_de_zamora",
+    "marcos_paz",
     "merlo",
     "moron",
     "tres_de_febrero"
@@ -58,6 +91,13 @@
     "lomas_de_zamora",
     "quilmes"
   ],
+  "la_plata": [
+    "berazategui",
+    "berisso",
+    "ensenada",
+    "florencio_varela",
+    "san_vicente"
+  ],
   "lomas_de_zamora": [
     "almirante_brown",
     "esteban_echeverria",
@@ -66,21 +106,34 @@
     "quilmes"
   ],
   "malvinas_argentinas": [
+    "escobar",
     "jose_c_paz",
+    "pilar",
     "san_martin",
     "san_miguel",
     "tigre"
   ],
+  "marcos_paz": [
+    "canuelas",
+    "general_rodriguez",
+    "la_matanza",
+    "merlo",
+    "moreno"
+  ],
   "merlo": [
     "ituzaingo",
     "la_matanza",
+    "marcos_paz",
     "moreno",
     "moron"
   ],
   "moreno": [
+    "general_rodriguez",
     "ituzaingo",
     "jose_c_paz",
+    "marcos_paz",
     "merlo",
+    "pilar",
     "san_miguel"
   ],
   "moron": [
@@ -89,6 +142,21 @@
     "la_matanza",
     "merlo",
     "tres_de_febrero"
+  ],
+  "pilar": [
+    "escobar",
+    "general_rodriguez",
+    "jose_c_paz",
+    "malvinas_argentinas",
+    "moreno",
+    "san_miguel"
+  ],
+  "presidente_peron": [
+    "almirante_brown",
+    "esteban_echeverria",
+    "ezeiza",
+    "florencio_varela",
+    "san_vicente"
   ],
   "quilmes": [
     "almirante_brown",
@@ -120,9 +188,17 @@
     "jose_c_paz",
     "malvinas_argentinas",
     "moreno",
+    "pilar",
     "san_martin"
   ],
+  "san_vicente": [
+    "canuelas",
+    "florencio_varela",
+    "la_plata",
+    "presidente_peron"
+  ],
   "tigre": [
+    "escobar",
     "malvinas_argentinas",
     "san_fernando",
     "san_isidro"

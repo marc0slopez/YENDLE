@@ -1,122 +1,172 @@
 {
-  "almirante_brown": [
-    "Adrogué es una de sus localidades más emblemáticas.",
-    "Muy asociado a calles arboladas y barrios residenciales.",
-    "Su nombre homenajea a un héroe naval."
-  ],
-  "avellaneda": [
-    "Dos grandes estadios de fútbol están separados por pocas cuadras.",
-    "Históricamente ligado a fábricas e industrias.",
-    "Cruzar el puente desde CABA te deja ahí."
-  ],
-  "berazategui": [
-    "Conocido históricamente por la industria del vidrio.",
-    "Tiene una fuerte tradición artesanal.",
-    "Se ubica entre Quilmes y Florencio Varela."
-  ],
-  "esteban_echeverria": [
-    "Monte Grande es su localidad cabecera.",
-    "Está entre Ezeiza y Lomas de Zamora.",
-    "Tiene zonas residenciales y conexión fuerte con el sur del conurbano."
-  ],
-  "ezeiza": [
-    "La mayoría piensa en viajes internacionales cuando escucha su nombre.",
-    "Tiene el principal aeropuerto del país.",
-    "Muchos pasan por ahí, aunque no siempre se quedan."
-  ],
-  "florencio_varela": [
-    "El club Defensa y Justicia representa al municipio.",
-    "Tiene un perfil muy residencial y popular del sur del conurbano.",
-    "Muchos lo identifican por su fuerte crecimiento urbano."
-  ],
-  "hurlingham": [
-    "Muy asociado al rugby y a clubes tradicionales.",
-    "Surgió como municipio separado de Morón.",
-    "Tiene estación propia y perfil residencial del oeste."
-  ],
-  "ituzaingo": [
-    "Municipio joven del oeste separado de Morón.",
-    "Muy vinculado al tren Sarmiento y al Acceso Oeste.",
-    "Combina barrios residenciales con centros comerciales locales."
-  ],
-  "jose_c_paz": [
-    "Uno de los municipios más jóvenes del conurbano.",
-    "Comparte mucho movimiento con San Miguel y Malvinas.",
-    "La universidad local creció mucho en la zona."
-  ],
-  "la_matanza": [
-    "El municipio más poblado de la provincia.",
-    "Su universidad pública creció muchísimo en las últimas décadas.",
-    "Incluye localidades gigantes como San Justo, Ramos y Laferrere."
-  ],
-  "lanus": [
-    "El club granate representa al municipio.",
-    "Tiene una fuerte identidad futbolera.",
-    "Es uno de los partidos más densamente poblados."
-  ],
-  "lomas_de_zamora": [
-    "Las Lomitas cambió muchísimo su perfil gastronómico.",
-    "Uno de los centros urbanos más fuertes del sur.",
-    "Tiene estación importante del ferrocarril Roca."
-  ],
-  "malvinas_argentinas": [
-    "Los Polvorines es una de sus localidades principales.",
-    "Nació tras dividirse de un municipio vecino.",
-    "Comparte mucho movimiento con San Miguel y José C. Paz."
-  ],
-  "merlo": [
-    "Muy ligado al ferrocarril Sarmiento.",
-    "Uno de los partidos históricos y más poblados del oeste.",
-    "Tiene un centro comercial muy movido alrededor de la estación."
-  ],
-  "moreno": [
-    "Punto clave del oeste conectado por el tren Sarmiento.",
-    "Tiene una mezcla fuerte de ciudad y zonas semi-rurales.",
-    "Muchos lo relacionan con el Acceso Oeste."
-  ],
-  "moron": [
-    "Centro clave del oeste con estación del Sarmiento.",
-    "Su plaza y catedral ordenan buena parte del movimiento urbano.",
-    "Tiene fuerte identidad comercial y educativa."
-  ],
-  "quilmes": [
-    "Muchos lo asocian inmediatamente con una cerveza.",
-    "Tiene costa sobre el Río de la Plata.",
-    "Es uno de los municipios más históricos del sur."
-  ],
-  "san_fernando": [
-    "El municipio donde el río manda más que las avenidas.",
-    "Famoso por sus marinas, clubes náuticos y vida ligada al Delta.",
-    "Muchos lo asocian con lanchas, canales y casas sobre el agua."
+  "tigre": [
+    "En este partido está el famoso Puerto de Frutos.",
+    "Tiene un extenso delta con cientos de islas y canales.",
+    "Su club más conocido juega en Primera División y tiene un felino como apodo."
   ],
   "san_isidro": [
-    "Tiene una de las catedrales más conocidas de zona norte.",
-    "El rugby y los colegios tradicionales son parte de su identidad.",
-    "Combina barrios elegantes con barrancas mirando al río."
-  ],
-  "san_martin": [
-    "Conocido por su enorme perfil industrial.",
-    "La peatonal Belgrano es uno de sus puntos más transitados.",
-    "Muchos lo nombran simplemente por un apellido histórico."
-  ],
-  "san_miguel": [
-    "Su centro suele estar lleno de vida nocturna y comercios.",
-    "Muchos jóvenes de zona noroeste salen ahí.",
-    "Comparte historia con José C. Paz y Malvinas."
-  ],
-  "tigre": [
-    "El Delta y las lanchas son parte de su identidad.",
-    "El Puerto de Frutos atrae muchísimo turismo.",
-    "Combina ciudad, río e islas en un mismo municipio."
-  ],
-  "tres_de_febrero": [
-    "Caseros es una de sus localidades centrales.",
-    "Debe su nombre a una batalla histórica.",
-    "Está muy ligado al ferrocarril y a la zona oeste cercana a CABA."
+    "Aquí se encuentra una de las catedrales más famosas de la zona norte.",
+    "Es muy conocido por sus barrios residenciales y su tradición de rugby.",
+    "Comparte protagonismo con el Hipódromo."
   ],
   "vicente_lopez": [
-    "Pegado a CABA sobre la costa norte.",
-    "Olivos y Florida forman parte de este municipio.",
-    "Tiene una vista muy reconocible hacia el río y la ciudad."
+    "El estadio Monumental de River Plate está justo enfrente, del otro lado de la General Paz.",
+    "Tiene un paseo costero muy popular sobre el Río de la Plata.",
+    "La residencia presidencial pertenece a este partido."
+  ],
+  "san_fernando": [
+    "Es conocido como la Capital Nacional de la Náutica.",
+    "Tiene muchísimas guarderías y clubes de remo.",
+    "Comparte parte del delta con Tigre."
+  ],
+  "escobar": [
+    "Todos los años se celebra aquí la Fiesta Nacional de la Flor.",
+    "Tiene un bioparque muy famoso llamado Temaikèn.",
+    "Su crecimiento urbano explotó con los countries y barrios cerrados."
+  ],
+  "pilar": [
+    "Aquí se corre una de las categorías más importantes del automovilismo argentino.",
+    "Tiene una gran cantidad de universidades y parques industriales.",
+    "Es uno de los partidos con más countries del conurbano."
+  ],
+  "jose_c_paz": [
+    "Lleva el nombre de un periodista y político argentino.",
+    "Tiene una de las universidades nacionales más nuevas del GBA.",
+    "Limita con San Miguel y Malvinas Argentinas."
+  ],
+  "malvinas_argentinas": [
+    "Su nombre homenajea a las Islas Malvinas.",
+    "La localidad de Los Polvorines pertenece a este partido.",
+    "Se separó de General Sarmiento en los años 90."
+  ],
+  "san_miguel": [
+    "Es conocido por su gran movimiento comercial y peatonal.",
+    "Formó parte del antiguo partido de General Sarmiento.",
+    "Tiene una importante presencia universitaria y militar."
+  ],
+  "hurlingham": [
+    "Su nombre proviene de una tradicional ciudad inglesa.",
+    "Es famoso por sus clubes y tradición vinculada al polo y rugby.",
+    "Comparte nombre con un club deportivo histórico."
+  ],
+  "ituzaingo": [
+    "Se lo conoce como el Jardín del Oeste.",
+    "Se independizó de Morón en los años 90.",
+    "Tiene una fuerte identidad residencial y arbolada."
+  ],
+  "moron": [
+    "Aquí está una de las bases aéreas más importantes del país.",
+    "Tiene una universidad nacional muy reconocida.",
+    "Fue cabecera de un partido mucho más grande antes de varias divisiones."
+  ],
+  "moreno": [
+    "Tiene una de las reservas naturales urbanas más grandes del oeste.",
+    "Es atravesado por el ferrocarril Sarmiento.",
+    "Su nombre homenajea a un prócer de la Revolución de Mayo."
+  ],
+  "merlo": [
+    "Es uno de los partidos más poblados del oeste del conurbano.",
+    "El Parque San Martín pertenece a este partido.",
+    "Comparte nombre con una famosa ciudad de San Luis, aunque no son la misma."
+  ],
+  "la_matanza": [
+    "Es el partido más poblado de toda la provincia de Buenos Aires.",
+    "Alberga localidades como San Justo, Ramos Mejía y Laferrere.",
+    "Su universidad nacional tiene muchísimos estudiantes."
+  ],
+  "tres_de_febrero": [
+    "Lleva el nombre de la fecha de una batalla histórica argentina.",
+    "Caseros pertenece a este partido.",
+    "Es una fecha del calendario."
+  ],
+  "san_martin": [
+    "Su cabecera lleva el apellido de un prócer argentino.",
+    "Tiene una de las universidades tecnológicas más reconocidas.",
+    "Villa Ballester y José León Suárez están dentro de este partido."
+  ],
+  "avellaneda": [
+    "Tiene dos clubes históricos rivales separados por pocas cuadras.",
+    "Se la conoce como la Capital Nacional del Fútbol.",
+    "El Puente Pueyrredón conecta este partido con CABA."
+  ],
+  "lanus": [
+    "Su club granate fue campeón internacional en los últimos años.",
+    "Tiene una de las estaciones ferroviarias más importantes del sur.",
+    "Limita directamente con Avellaneda y Lomas de Zamora."
+  ],
+  "lomas_de_zamora": [
+    "Las Lomitas es uno de sus polos gastronómicos más conocidos.",
+    "Banfield y Temperley pertenecen a este partido.",
+    "Tiene una histórica tradición ferroviaria en el sur del conurbano."
+  ],
+  "quilmes": [
+    "Comparte nombre con una de las cervezas más famosas del país.",
+    "Tiene una universidad nacional muy reconocida.",
+    "Fue una de las primeras ciudades importantes del sur bonaerense."
+  ],
+  "berazategui": [
+    "Es conocida como la Capital Nacional del Vidrio.",
+    "Tiene un museo dedicado al vidrio muy famoso.",
+    "Limita con Quilmes y Florencio Varela."
+  ],
+  "florencio_varela": [
+    "El club Defensa y Justicia representa a este partido.",
+    "Lleva el nombre de un escritor y político argentino.",
+    "Creció muchísimo en población desde fines del siglo XX."
+  ],
+  "almirante_brown": [
+    "Su nombre homenajea al padre de la Armada Argentina.",
+    "Adrogué es una de sus localidades más conocidas.",
+    "Tiene una fuerte tradición futbolera con Brown de Adrogué."
+  ],
+  "esteban_echeverria": [
+    "El aeropuerto internacional más importante del país está parcialmente aquí.",
+    "Monte Grande es su cabecera.",
+    "Lleva el nombre de un famoso escritor romántico argentino."
+  ],
+  "ezeiza": [
+    "Aquí está el predio de la AFA donde entrena la Selección Argentina.",
+    "También se encuentra el principal aeropuerto internacional del país.",
+    "Su nombre está asociado inmediatamente a los viajes al exterior."
+  ],
+  "presidente_peron": [
+    "Es uno de los partidos más jóvenes del conurbano.",
+    "Guernica es su ciudad cabecera.",
+    "Lleva el apellido de un expresidente argentino."
+  ],
+  "san_vicente": [
+    "Aquí descansan los restos de Juan Domingo Perón.",
+    "Tiene una histórica quinta vinculada al peronismo.",
+    "Conserva un perfil más rural que otros partidos del GBA."
+  ],
+  "general_rodriguez": [
+    "Es famoso por su producción láctea y alimenticia.",
+    "Allí se encuentra la Basílica de Luján... cerca, pero no exactamente.",
+    "Tiene una importante actividad industrial y logística."
+  ],
+  "marcos_paz": [
+    "Tiene un perfil semi-rural dentro del área metropolitana.",
+    "Es conocido por su producción agrícola y ganadera.",
+    "Comparte nombre con un militar y político argentino."
+  ],
+  "canuelas": [
+    "Es considerada la cuna del dulce de leche argentino.",
+    "Tiene una fuerte tradición rural y tambera.",
+    "Allí convergen rutas clave hacia el interior del país."
+  ],
+  "ensenada": [
+    "Aquí funciona una de las refinerías más importantes de YPF.",
+    "Tiene salida directa al Río de la Plata.",
+    "Forma parte del Gran La Plata."
+  ],
+  "berisso": [
+    "Es reconocida por su histórica inmigración europea.",
+    "Allí se celebra la Fiesta Provincial del Inmigrante.",
+    "Forma parte del polo industrial y portuario de La Plata."
+  ],
+  "la_plata": [
+    "Es conocida como la ciudad de las diagonales.",
+    "Es la capital de la provincia de Buenos Aires.",
+    "Su catedral es una de las más grandes de América."
   ]
 }

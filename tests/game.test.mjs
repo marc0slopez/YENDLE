@@ -115,7 +115,7 @@ assert.equal(gbaPack.pack.shortLabel, 'GBA');
 assert.equal(gbaPack.pack.routeRules.dailyOnly, true);
 assert.equal(gbaPack.pack.routeRules.disableNewRoute, true);
 assert.equal(gbaPack.pack.routeRules.disableRetry, true);
-assert.equal(gbaPack.barrios.features.length, 24);
+assert.equal(gbaPack.barrios.features.length, 34);
 assert.equal(Object.keys(gbaPack.relaciones).includes('caba'), false);
 assert.equal(gbaPack.barrios.features.some((feature) => feature.properties.id === 'caba'), false);
 
@@ -123,24 +123,34 @@ const expectedGbaIds = [
   'almirante_brown',
   'avellaneda',
   'berazategui',
+  'berisso',
+  'canuelas',
+  'ensenada',
+  'escobar',
   'esteban_echeverria',
   'ezeiza',
   'florencio_varela',
+  'general_rodriguez',
   'hurlingham',
   'ituzaingo',
   'jose_c_paz',
   'la_matanza',
+  'la_plata',
   'lanus',
   'lomas_de_zamora',
   'malvinas_argentinas',
+  'marcos_paz',
   'merlo',
   'moreno',
   'moron',
+  'pilar',
+  'presidente_peron',
   'quilmes',
   'san_fernando',
   'san_isidro',
   'san_martin',
   'san_miguel',
+  'san_vicente',
   'tigre',
   'tres_de_febrero',
   'vicente_lopez'

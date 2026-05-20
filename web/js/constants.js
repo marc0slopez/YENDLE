@@ -61,7 +61,7 @@ export const PACKS = {
     shortLabel: 'GBA',
     gameTitle: 'YENDLE x GBA',
     regionLabel: 'Partidos del Gran Buenos Aires',
-    mapAriaLabel: 'Mapa de partidos del Gran Buenos Aires sin CABA',
+    mapAriaLabel: 'Mapa de partidos del Gran Buenos Aires sin CABA, con Gran La Plata',
     unitSingular: 'partido',
     unitPlural: 'partidos',
     defaultDifficulty: 'diaria',
